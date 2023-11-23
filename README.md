@@ -20,7 +20,7 @@ TrelloClone
 
 A demo of the application can be found running at: [KanbanDo](https://kanbando.azurewebsites.net/)
 
-## Scope
+## Scope1
 
 This project was created for the sole purpose of creating a Kanban board similar to Trello using ASP.Net Core and pairing it with Materialize CSS framework.
 
