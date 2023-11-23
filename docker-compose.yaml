@@ -1,0 +1,17 @@
+version: '2'
+
+services:
+  cproj:
+    build:
+      context: .
+      dockerfile: ./dockerfile
+    image: cproj:1
+    container_name: cproj
+    ports:
+      - "5001:5001"
+      - "4438:4438"
+    networks:
+      - cnet
+networks:
+  cnet:
+    driver: bridge
